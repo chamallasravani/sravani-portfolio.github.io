@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/1238052d6d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header" max-height="100vh">
+        <nav>
+            <h1 class="ss"><span>PortFo</span>lio</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+        <div class="header-text">
+            <p> Web Page</p>
+            <h1>Hi, I'm <span>Sravani</span><br>From India</h1>
+        </div>
+    </div>
+    <!-- -----about----- -->
+    <div id="about">
+        <img src="./pics/pic3.jpg" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"></div>
+                <div class="about-col-2"></div>
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Sravani and I'm From Aditya Institute Of Technology And Management
+                    I'm a student of computer science and engineering I have been studying
+                    my bachlor degree 3rd year I'm interested to join a company as a software
+                    developer.
+                </p>
+            </div>
+            <div class="tab-items">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('contact')">Contact</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Web Development</span><br>Desiging Web Pages</li>
+                    <li><span>Desiging Pages</span><br>Using Html Css and Also Js</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="contact">
+                <ul>
+                    <li><span>Address</span><br>4-42 Kamalapuram,Mandasa,Srikakulam,532243</li>
+
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2017-2018</span><br>Zphs School,Haripuram</li>
+                    <li><span>2018-2020</span><br>Aditya Junior Collage,Baligam</li>
+                    <li><span>2020-2024</span><br>Aditya Institute Of Technology And Management,Tekkali</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ------services------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>By Developing Web Desiging Skills And Providing Web Documents </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>Coding</h2>
+                    <p>By Creating Different Programs and Performing Different Contents </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-tower-cell"></i>
+                    <h2>Communication </h2>
+                    <p>By Creating and Delivering Communication Vedios Through Social Media </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -----portfolio------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./pics/web1.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./pics/web2.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./pics/web3.jpg">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!------contact------>
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a herf="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                        <a herf=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a herf=""><i class="fa-brands fa-instagram"></i></a>
+                        <a herf=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="./pics/RESUME 1.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Thank U For Visiting Website<i class="fa-solid fa-heart"></i>@Sravani</p>
+    </div>
+
+    <script>
+        var tablelinks = document.getElementsByClassName("tab-links");
+        console.log(tablelinks);
+        var tablecontents = document.querySelectorAll(".tab-contents");
+        console.log(tablecontents);
+        function opentab(tabname) {
+            for (let tablelink of tablelinks) {
+
+                tablelink.classList.remove("active-link");
+            }
+            for (let tablecontent of tablecontents) {
+                tablecontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+</body>
+</html>
